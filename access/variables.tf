@@ -10,13 +10,13 @@ variable "cloudflare_api_token" {
   sensitive   = true
 }
 
-variable "domain" {
+variable "cloudflare_domain" {
   description = "Domain"
   type        = string
   sensitive   = true
 }
 
-variable "zone_id" {
+variable "cloudflare_zone_id" {
   description = "Zone Id"
   type        = string
   sensitive   = true
